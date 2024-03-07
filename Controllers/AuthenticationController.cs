@@ -13,20 +13,20 @@ namespace TimeSheetBackend.Controllers
     {
         private readonly ILogger<AuthenticationController> _logger;
 
-        // public AuthenticationController(ILogger<AuthenticationController> logger)
-        // {
-        //     _logger = logger;
-        // }
+        public AuthenticationController(ILogger<AuthenticationController> logger)
+        {
+            _logger = logger;
+        }
 
-        // public IActionResult Index()
-        // {
-        //     return View();
-        // }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-        // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        // public IActionResult Error()
-        // {
-        //     return View("Error!");
-        // }
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
+        }
     }
 }
