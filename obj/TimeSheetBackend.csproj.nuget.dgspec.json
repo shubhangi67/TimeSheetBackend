@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {}
+    "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {}
   },
   "projects": {
-    "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {
+    "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
+        "projectUniqueName": "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
         "projectName": "TimeSheetBackend",
-        "projectPath": "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
+        "projectPath": "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
         "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "d:\\TimeSheet\\TimeSheetBackend\\obj\\",
+        "outputPath": "D:\\TimeSheet\\TimeSheetBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,9 +41,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
