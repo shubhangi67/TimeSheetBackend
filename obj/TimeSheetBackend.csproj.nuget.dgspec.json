@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {}
+    "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {}
   },
   "projects": {
-    "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {
+    "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
+        "projectUniqueName": "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
         "projectName": "TimeSheetBackend",
-        "projectPath": "D:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
+        "projectPath": "d:\\TimeSheet\\TimeSheetBackend\\TimeSheetBackend.csproj",
         "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "D:\\TimeSheet\\TimeSheetBackend\\obj\\",
+        "outputPath": "d:\\TimeSheet\\TimeSheetBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
